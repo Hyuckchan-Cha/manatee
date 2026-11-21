@@ -6,8 +6,7 @@
 # 학생 이름이 들어 있는 원본 시트 데이터
 data/
 
-# 참고용 원본 Apps Script 코드 · 로컬 빌드 산출물
-legacy/
+# 로컬 빌드 산출물
 .next/
 node_modules/
 supabase/.temp/

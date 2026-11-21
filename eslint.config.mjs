@@ -12,8 +12,6 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
-    // 참고용 원본 Apps Script 코드
-    "legacy/**",
     // 원본에서 거의 그대로 옮긴 교사 화면 스크립트 (브라우저 시험으로 검증)
     "public/teacher-app/**",
   ]),

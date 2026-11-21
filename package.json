@@ -7,13 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "import:sheet": "node --env-file-if-exists=.env.local scripts/import-sheet.mjs",
     "db:push": "supabase db push",
     "typecheck": "tsc --noEmit",
     "db:types": "bash -c \"set -a; source .env.local; supabase gen types typescript --db-url \\\"$POSTGRES_URL_NON_POOLING\\\" --schema public > src/lib/database.types.ts\"",
     "smoke:teacher": "node --env-file=.env.local --env-file-if-exists=.env.development.local scripts/smoke-teacher-api.mjs",
     "smoke:live": "node --env-file=.env.local --env-file-if-exists=.env.development.local scripts/smoke-live.mjs",
-    "parity:analysis": "node --env-file=.env.local --env-file-if-exists=.env.development.local scripts/parity-analysis.mjs",
     "smoke:ai-mock": "node --env-file=.env.local --env-file-if-exists=.env.development.local scripts/smoke-ai-mock.mjs",
     "i18n:student": "node --env-file-if-exists=.env.local scripts/i18n-student.mjs",
     "sample:export": "node --env-file=.env.local scripts/sample-export.mjs",
@@ -40,7 +38,6 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.4.5",
-    "exceljs": "^4.4.0",
     "supabase": "^3.0.0",
     "typescript": "^5"
   }
