@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="public/brand/manatee-face.png" alt="manatee logo" width="140">
+<img src="docs/img/manatee-logo.png" alt="manatee logo" width="140">
 
 # manatee — Formative Assessment to Exam Design for Science Classes
 
